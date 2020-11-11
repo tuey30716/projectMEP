@@ -1,0 +1,7 @@
+Booking Number :5fac2e50e614e
+Ticket Zone    :B
+Ticket amount  :4
+Name Lastname  :A Ha
+Email address  :w@r.com
+Phone Number   :201323
+Total Price    :18,000.00

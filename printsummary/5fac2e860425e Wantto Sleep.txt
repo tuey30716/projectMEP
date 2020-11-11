@@ -1,0 +1,7 @@
+Booking Number :5fac2e860425e
+Ticket Zone    :C
+Ticket amount  :8
+Name Lastname  :Wantto Sleep
+Email address  :a@gmail.com
+Phone Number   :031554878
+Total Price    :24,000.00

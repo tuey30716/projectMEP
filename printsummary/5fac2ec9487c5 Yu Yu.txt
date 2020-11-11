@@ -1,0 +1,7 @@
+Booking Number :5fac2ec9487c5
+Ticket Zone    :C
+Ticket amount  :4
+Name Lastname  :Yu Yu
+Email address  :t@t.com
+Phone Number   :93243247
+Total Price    :12,000.00

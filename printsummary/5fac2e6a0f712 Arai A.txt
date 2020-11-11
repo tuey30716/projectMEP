@@ -1,0 +1,7 @@
+Booking Number :5fac2e6a0f712
+Ticket Zone    :A
+Ticket amount  :4
+Name Lastname  :Arai A
+Email address  :re@ro.com
+Phone Number   :123456789
+Total Price    :20,000.00
