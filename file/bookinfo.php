@@ -29,7 +29,7 @@ function getbookinfo($bookid)
     $ticket=$worksheet->toArray();
     
     }
-    if($bookid!=''){
+    if($bookid!=0){
     foreach($ticket as $key=>$val){
 
             if($val[0]==$bookid){
@@ -42,6 +42,7 @@ function getbookinfo($bookid)
                 echo "\n\tTotal Price    :".number_format((float)$val[6], 2, '.', ',');
             break;
             }
+      
     }}
     elseif($bookid==0){
         foreach($ticket as $key=>$val){
