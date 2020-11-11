@@ -36,6 +36,7 @@ while(1){
 echo "\n\tPlease input your email address  :";
 $email=trim(fgets(STDIN));
 $pattern="/\w+\@\w+\.\w+/";
+
 if(preg_match($pattern, $email)==1){
     break;
 }
