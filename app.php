@@ -7,7 +7,7 @@ $input = $_SERVER['argv'];
 
 $optind = NULL;
 $shortopts  = "htbc::";
-$longopts  = array('help','ticket','booking','check::');
+$longopts  = array('help','ticket','booking:','check::');
 $opts = getopt($shortopts, $longopts,$optind );
 $args = array_slice($_SERVER['argv'], $optind); 
 $checkerr=0;
@@ -72,9 +72,11 @@ if(array_key_exists('check', $opts) || array_key_exists('c', $opts))
 
     if($opts['check']!='')
     {
-        getbookinfo(trim($opts['check']));
+        getbookinfo($opts['check']);
     }
-    getbookinfo('');
+    else{
+    getbookinfo(0);
+    }
     $checkerr++;
 }
 
@@ -88,7 +90,6 @@ function error($filename)
 
 if($checkerr==0){
     error($input[0]);
-  
 }
 
 ?>
