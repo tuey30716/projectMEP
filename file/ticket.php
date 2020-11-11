@@ -2,6 +2,7 @@
 require_once 'vendor/autoload.php';
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
+
 function readticketamount()
 {
     $spreadsheet = new Spreadsheet();
